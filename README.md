@@ -109,20 +109,20 @@ practiceRouter.put('/put', (req, res) => {
 });
 ```
 
-## Sample use
+## Sample Use:
 
 If you want to view sample code of our npm being used then look at our github into the server.js file within the lib directories.
 
 **https://github.com/kbeame/rainier-beer/blob/master/lib/server.js**
 
-## Dependencies
+## Dependencies:
 * Gulp was used for task management
 * Mocha Chai (with chai-http) were used for testing
 
 ## Authors:
 #### Katherine Beame and Benjamin Nolan
 
-## Resources Used
+## Resources Used:
 This framework is heavily based off of in-class demonstrations in Javascript CodeFellows 401-d7.
 
 The authors also referred to the npm package sludgie-trucker-coffee for inspiration.
