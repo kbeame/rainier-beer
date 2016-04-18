@@ -3,6 +3,7 @@ const chaiHttp = require('chai-http');
 chai.use(chaiHttp);
 const expect = chai.expect;
 const request = chai.request;
+require(__dirname + '/../lib/server.js');
 
 describe('rainier-beer server', () => {
   it('should respond to a GET request', (done) => {
