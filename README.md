@@ -4,10 +4,21 @@ A simplified express style router
 How to use the rainier-beer framework
 ## How to Install
 
-**npm install rainier-beer**
+```
+npm install rainier-beer
+```
 
 In order to use rainier-beer you must require it in:
-**const rainierBeer = require('rainier-beer');**
+
+```
+const rainierBeer = require('rainier-beer');
+```
+
+In order to create a server you must also require-in http:
+
+```
+const http = require('http');
+```
 
 ## How to use Router
 
@@ -116,7 +127,7 @@ If you want to view sample code of our npm being used then look at our github in
 **https://github.com/kbeame/rainier-beer/blob/master/lib/server.js**
 
 ## Dependencies:
-* Gulp was used for task management
+* Gulp was used for task management (gulp-eslint, gulp-mocha)
 * Mocha Chai (with chai-http) were used for testing
 
 ## Authors:
