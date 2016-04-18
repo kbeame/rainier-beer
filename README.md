@@ -59,10 +59,16 @@ Default Values:
             * **write**: Received GET
 
 If you want to use the default values for a get request then an example is as follows:
+'''
 **practiceRouter.get('/cat');**
+'''
 
 If you want to customize your own you can input your own values for the parameters.
 **practiceRouter.get('/moose', 210, 'text/plain', 'Hello Kat');**
+
+
+###DELETE/PUT/PATCH
+While these are a;;
 
 ##Authors
 * Katherine Beame
