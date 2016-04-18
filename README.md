@@ -54,6 +54,7 @@ There are 5 parameters for calling the .get() function
 ####Default Values:
 While indicating your own routeName is mandatory, inherit to the GET requests using this Router are a couple of *default values* should you choose not to input your own parameters when calling the .get() function.
 Default Values:
+
             * **statusCode**: 200
             * **Content-Type**: plain/text
             * **write**: Received GET
