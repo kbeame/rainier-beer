@@ -25,10 +25,10 @@ Now you can begin to make easy, one line GET and POST requests.
 
 ####Parameters:
 There are 5 parameters for calling the .post() function
-          * **routeName** is the url path extension (ex/ '/' or '/anything')
-          * **statusCode** is the status you want to define (ex/ 200, 404, 300);
-          * **Content-Type** is the type of response you want (ex/ plain/text, application/json)
-          * **write** is what is written to the response (ex/ "Hello Rainier Beer!")
+          # **routeName** is the url path extension (ex/ '/' or '/anything')
+          # **statusCode** is the status you want to define (ex/ 200, 404, 300);
+          # **Content-Type** is the type of response you want (ex/ plain/text, application/json)
+          # **write** is what is written to the response (ex/ "Hello Rainier Beer!")
 
 With the post request there is no option for default values but the parameters are extremely customizable.
 
@@ -46,10 +46,10 @@ If you want to write an individualized response then substitute **chunk** for an
 
 ####Parameters:
 There are 5 parameters for calling the .get() function
-          * **routeName** is the url path extension (ex/ '/' or '/anything')
-          * **statusCode** is the status you want to define (ex/ 200, 404, 300);
-          * **Content-Type** is the type of response you want (ex/ plain/text, application/json)
-          * **write** is what is written to the response (ex/ "Hello Rainier Beer!")
+          # **routeName** is the url path extension (ex/ '/' or '/anything')
+          # **statusCode** is the status you want to define (ex/ 200, 404, 300);
+          # **Content-Type** is the type of response you want (ex/ plain/text, application/json)
+          # **write** is what is written to the response (ex/ "Hello Rainier Beer!")
 
 ####Default Values:
 While indicating your own routeName is mandatory, inherit to the GET requests using this Router are a couple of *default values* should you choose not to input your own parameters when calling the .get() function.
@@ -59,9 +59,8 @@ Default Values:
             * **write**: Received GET
 
 If you want to use the default values for a get request then an example is as follows:
-'''
 **practiceRouter.get('/cat');**
-'''
+
 
 If you want to customize your own you can input your own values for the parameters.
 **practiceRouter.get('/moose', 210, 'text/plain', 'Hello Kat');**
