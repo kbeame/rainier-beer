@@ -20,8 +20,10 @@ describe('rainier-beer server', () => {
     request('localhost:3000')
     .get('/badroute')
     .end((err, res) => {
-
+      expect(err).to.not.eql(null);
+      expect(res).to.have.status(404);
+      expect(res.text).to.eql('404 Not Found');
+      done();
     });
-    done();
   });
 });
